@@ -1,8 +1,6 @@
 import React from "react";
-
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route} from "react-router";
-
 
 //import pages
 import Home from "./pages/Home";
@@ -15,12 +13,11 @@ import Error from "./pages/Error";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import "./scss/main.scss";
-
+// import "./scss/main.scss";
 
 const App = () => {
-  return (
-    <BrowserRouter>
+    return (
+        <BrowserRouter>
             <Navbar />
             <Routes>
                 <Route exact path="/" element={<Home />}/>
@@ -30,8 +27,8 @@ const App = () => {
                 <Route exact path="*" element={<Error />}/>
             </Routes>
             <Footer />
-    </BrowserRouter>
-  );
+        </BrowserRouter>
+    );
 }
 
 export default App;

@@ -5,9 +5,9 @@ export default function Error() {
         <section className="error-page section">
             <div className="error-container">
                 <h1>Przepraszamy, to koniec. <br/>
-                Wróć na stronę główną.</h1>
+                    Wróć na stronę główną.</h1>
                 <Link to="/" className="btn btn-primary">
-                    back home
+                    strona główna
                 </Link>
             </div>
         </section>

@@ -3,15 +3,13 @@ import React from "react";
 export default function About() {
     return (
         <section className="section about-section">
-            <div className="testowy-about">
             <h1 className="section-title">O nas</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-                repudiandae architecto qui adipisci in officiis, aperiam sequi atque
-                perferendis eos, autem maiores nisi saepe quisquam hic odio consectetur
-                nobis veritatis quasi explicabo obcaecati doloremque?
+                Jesteśmy grupą barmanów, która przez lata pracy z "manualami" na drukowanych
+                kartkach wpadła na pomysł stworzenia aplikacji, która uprości nam wszystkim życie.
+                Nasz Drink Manual to zbiór koktajli, dzięki któremu macie instrukcje do ich
+                stworzenia zawsze pod ręką.
             </p>
-            </div>
         </section>
     );
 }
