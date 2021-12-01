@@ -7,7 +7,7 @@ export default function About() {
             <p>
                 Jesteśmy grupą barmanów, która przez lata pracy z "manualami" na drukowanych
                 kartkach wpadła na pomysł stworzenia aplikacji, która uprości nam wszystkim życie.
-                Nasz Drink Manual to zbiór koktajli, dzięki któremu macie instrukcje do ich
+                Nasz Drink Manual to zbiór koktajli, dzięki któremu macie instrukcję ich
                 stworzenia zawsze pod ręką.
             </p>
         </section>
